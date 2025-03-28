@@ -76,10 +76,10 @@ while True:
             sleep (1)
             break
         case "0":
-            print("Escolher forma de pagamento.")
+            print("Não existe pedidos.")
             sleep(1)
             os.system ("clear || cls")
-            break
+            exit()
         case _:
             print("Codigo invalido.\nDigite o código novamente.")
             sleep(1)
